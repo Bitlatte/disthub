@@ -3,6 +3,6 @@ import AppRouter from "../routes";
 
 const App: Application = express();
 
-App.use('/', AppRouter);
+App.use("/", AppRouter);
 
 export default App;
